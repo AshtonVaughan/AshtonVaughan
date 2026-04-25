@@ -27,6 +27,21 @@ def fetch_events() -> list[dict[str, Any]]:
     return json.loads(result.stdout)
 
 
+def fetch_commit_message(repo: str, sha: str) -> str:
+    try:
+        result = subprocess.run(
+            ["gh", "api", f"repos/{repo}/commits/{sha}", "--jq", ".commit.message"],
+            capture_output=True,
+            text=True,
+            check=True,
+            timeout=10,
+        )
+        line = result.stdout.strip().splitlines()
+        return line[0][:90] if line else ""
+    except (subprocess.CalledProcessError, subprocess.TimeoutExpired):
+        return ""
+
+
 def format_events(events: list[dict[str, Any]]) -> str:
     rows: list[str] = []
     seen: set[tuple[str, str]] = set()
@@ -39,9 +54,14 @@ def format_events(events: list[dict[str, Any]]) -> str:
         kind = ev["type"]
         if kind == "PushEvent":
             commits = ev["payload"].get("commits", [])
-            if not commits:
-                continue
-            msg = commits[-1]["message"].splitlines()[0][:90]
+            if commits:
+                msg = commits[-1]["message"].splitlines()[0][:90]
+            else:
+                head = ev["payload"].get("head", "")
+                msg = fetch_commit_message(repo, head) if head else ""
+            if not msg:
+                ref = ev["payload"].get("ref", "").replace("refs/heads/", "")
+                msg = f"pushed to {ref}" if ref else "pushed"
             key = (repo, msg)
             if key in seen:
                 continue
