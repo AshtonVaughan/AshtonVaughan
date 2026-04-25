@@ -27,13 +27,6 @@
     <path d="M 1160 248 L 1160 200 M 1160 248 L 1112 248"/>
   </g>
 
-  <g transform="translate(80, 64)">
-    <circle cx="6" cy="6" r="6" fill="#06FFA5">
-      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <text x="22" y="11" font-family="ui-monospace, 'JetBrains Mono', 'Fira Code', monospace" font-size="13" fill="#7d8590" letter-spacing="2">SYSTEM ONLINE / SESSION ACTIVE</text>
-  </g>
-
   <text x="80" y="160" font-family="ui-monospace, 'JetBrains Mono', 'Fira Code', monospace" font-size="56" font-weight="700" fill="#e6edf3" letter-spacing="-1">ASHTON VAUGHAN</text>
 
   <text x="80" y="200" font-family="ui-monospace, 'JetBrains Mono', 'Fira Code', monospace" font-size="18" fill="#FF006E">$ offensive_security + ai_ml_systems</text>
