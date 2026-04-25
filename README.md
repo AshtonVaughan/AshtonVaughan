@@ -19,9 +19,7 @@ I've been hacking since I was 9. My first attack was an old-fashioned bruteforce
 
 <img src="https://raw.githubusercontent.com/AshtonVaughan/AshtonVaughan/main/timeline.svg" alt="a decade of side projects, with the most recent years highlighted" width="100%" />
 
-```
-offensive security  ·  applied ml  ·  agent systems  ·  systems programming
-```
+`offensive security` &nbsp;·&nbsp; `applied ml` &nbsp;·&nbsp; `agent systems` &nbsp;·&nbsp; `systems programming`
 
 ---
 
