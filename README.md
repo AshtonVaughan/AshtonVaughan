@@ -145,7 +145,12 @@ Deep RL forex systems: [TradingEngine](https://github.com/AshtonVaughan/trading-
 <!-- RECENT_START -->
 
 ```text
-_no public activity yet_
+- `push`     [AshtonVaughan/bountyhound](https://github.com/AshtonVaughan/bountyhound) - fix: remove broken logo reference
+- `push`     [AshtonVaughan/bountyhound](https://github.com/AshtonVaughan/bountyhound) - rename bountyhound-agent -> bountyhound, update plugin.json to v7.0.0
+- `push`     [AshtonVaughan/bountyhound](https://github.com/AshtonVaughan/bountyhound) - chore: remove legacy CLI package, keep only bountyhound-agent plugin
+- `push`     [AshtonVaughan/bountyhound](https://github.com/AshtonVaughan/bountyhound) - v7.0.0 - Merged TriageEngine + Apex Hunter into unified hacking harness
+- `push`     [AshtonVaughan/bountyhound](https://github.com/AshtonVaughan/bountyhound) - feat: rewrite all 41 skills as behavioral protocols + add 7 rare-category skills
+- `push`     [AshtonVaughan/DiaxiInject](https://github.com/AshtonVaughan/DiaxiInject) - Replace setup wizard with full TUI menu: keys, settings, campaign - all in-app
 ```
 
 <!-- RECENT_END -->
