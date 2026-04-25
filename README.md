@@ -21,9 +21,13 @@
 
 ### `>` ./about
 
-<a href="https://github.com/AshtonVaughan">
-  <img src="https://raw.githubusercontent.com/AshtonVaughan/AshtonVaughan/main/about.svg" alt="about Ashton Vaughan - operator console" width="100%" />
-</a>
+I picked up a Raspberry Pi in primary school and spent the next decade building things I couldn't buy. Now I'm 18, studying CS at QUT, hunting bugs on HackerOne, and shipping three projects in parallel: an autonomous bug bounty agent, a hardware-agnostic LLM inference engine, and a browser runtime built for AI agents.
+
+The throughline is the same one it's always been: I keep wanting the thing that makes the last thing feel slow.
+
+```
+offensive security  ·  applied ml  ·  agent systems  ·  systems programming
+```
 
 ---
 
