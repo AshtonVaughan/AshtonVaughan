@@ -1,4 +1,4 @@
-<svg viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ashton Vaughan banner">
+<svg viewBox="0 0 1200 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ashton Vaughan banner">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0d1117"/>
@@ -14,15 +14,15 @@
     </linearGradient>
   </defs>
 
-  <rect width="1200" height="280" fill="url(#bg)"/>
-  <rect width="1200" height="280" fill="url(#grid)"/>
+  <rect width="1200" height="180" fill="url(#bg)"/>
+  <rect width="1200" height="180" fill="url(#grid)"/>
 
   <rect x="0" y="0" width="1200" height="2" fill="url(#accent)"/>
-  <rect x="0" y="278" width="1200" height="2" fill="url(#accent)"/>
+  <rect x="0" y="178" width="1200" height="2" fill="url(#accent)"/>
 
-  <text x="80" y="160" font-family="ui-monospace, 'JetBrains Mono', 'Fira Code', monospace" font-size="56" font-weight="700" fill="#e6edf3" letter-spacing="-1">ASHTON VAUGHAN</text>
+  <text x="80" y="80" font-family="ui-monospace, 'JetBrains Mono', 'Fira Code', monospace" font-size="56" font-weight="700" fill="#e6edf3" letter-spacing="-1">ASHTON VAUGHAN</text>
 
-  <text x="80" y="200" font-family="ui-monospace, 'JetBrains Mono', 'Fira Code', monospace" font-size="18" fill="#FF006E">$ offensive_security + ai_ml_systems</text>
+  <text x="80" y="120" font-family="ui-monospace, 'JetBrains Mono', 'Fira Code', monospace" font-size="18" fill="#FF006E">$ offensive_security + ai_ml_systems</text>
 
-  <text x="80" y="226" font-family="ui-monospace, 'JetBrains Mono', 'Fira Code', monospace" font-size="13" fill="#7d8590">IT @ QUT / Brisbane / hacking since I was 9</text>
+  <text x="80" y="146" font-family="ui-monospace, 'JetBrains Mono', 'Fira Code', monospace" font-size="13" fill="#7d8590">IT @ QUT / Brisbane / hacking since I was 9</text>
 </svg>
