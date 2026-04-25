@@ -38,7 +38,7 @@
 
   <text x="80" y="200" font-family="ui-monospace, 'JetBrains Mono', 'Fira Code', monospace" font-size="18" fill="#FF006E">$ offensive_security + ai_ml_systems</text>
 
-  <text x="80" y="226" font-family="ui-monospace, 'JetBrains Mono', 'Fira Code', monospace" font-size="13" fill="#7d8590">CS @ QUT / Brisbane / building tools that ship</text>
+  <text x="80" y="226" font-family="ui-monospace, 'JetBrains Mono', 'Fira Code', monospace" font-size="13" fill="#7d8590">IT @ QUT / Brisbane / hacking since I was 9</text>
 
   <g transform="translate(820, 60)" font-family="ui-monospace, 'JetBrains Mono', 'Fira Code', monospace" font-size="13">
     <rect x="0" y="0" width="300" height="170" fill="#0d1117" stroke="#30363d" stroke-width="1" rx="6"/>
