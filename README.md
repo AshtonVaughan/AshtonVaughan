@@ -13,7 +13,7 @@
 <a href="mailto:business@ashtonvaughan.com"><img src="https://img.shields.io/badge/EMAIL-FF006E?style=for-the-badge&logo=maildotru&logoColor=white&labelColor=0d1117" /></a>
 <a href="https://hackerone.com/ashtonvaughan"><img src="https://img.shields.io/badge/HACKERONE-494649?style=for-the-badge&logo=hackerone&logoColor=white&labelColor=0d1117" /></a>
 <a href="https://pypi.org/user/AshtonVaughan/"><img src="https://img.shields.io/badge/PYPI-9D4EDD?style=for-the-badge&logo=pypi&logoColor=white&labelColor=0d1117" /></a>
-<a href="https://www.linkedin.com/in/ashton-vaughan-53758a352/"><img src="https://img.shields.io/badge/LINKEDIN-00D9FF?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" /></a>
+<a href="https://www.linkedin.com/in/ashtonlvaughan/"><img src="https://img.shields.io/badge/LINKEDIN-00D9FF?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" /></a>
 
 </div>
 
@@ -24,6 +24,8 @@
 I picked up a Raspberry Pi in primary school and spent the next decade building things I couldn't buy. Now I'm 18, studying CS at QUT, hunting bugs on HackerOne, and shipping three projects in parallel: an autonomous bug bounty agent, a hardware-agnostic LLM inference engine, and a browser runtime built for AI agents.
 
 The throughline is the same one it's always been: I keep wanting the thing that makes the last thing feel slow.
+
+<img src="https://raw.githubusercontent.com/AshtonVaughan/AshtonVaughan/main/timeline.svg" alt="a decade of side projects, with the most recent years highlighted" width="100%" />
 
 ```
 offensive security  ·  applied ml  ·  agent systems  ·  systems programming

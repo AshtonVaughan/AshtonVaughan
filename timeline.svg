@@ -1,0 +1,34 @@
+<svg viewBox="0 0 880 110" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A decade of side projects: 2016 through 2026, with recent years highlighted as currently shipping">
+  <style>
+    .label { font-family: ui-monospace, "JetBrains Mono", "Fira Code", monospace; font-size: 12px; }
+    .yr    { font-family: ui-monospace, "JetBrains Mono", "Fira Code", monospace; font-size: 11px; }
+  </style>
+
+  <text x="40" y="22" class="label" fill="#7d8590">a decade of side projects</text>
+
+  <line x1="60" y1="62" x2="820" y2="62" stroke="#30363d" stroke-width="1"/>
+
+  <g fill="#30363d">
+    <circle cx="60"  cy="62" r="5"/>
+    <circle cx="136" cy="62" r="5"/>
+    <circle cx="212" cy="62" r="5"/>
+    <circle cx="288" cy="62" r="5"/>
+    <circle cx="364" cy="62" r="5"/>
+    <circle cx="440" cy="62" r="5"/>
+    <circle cx="516" cy="62" r="5"/>
+    <circle cx="592" cy="62" r="5"/>
+  </g>
+
+  <g fill="#FF006E">
+    <circle cx="668" cy="62" r="5"/>
+    <circle cx="744" cy="62" r="5"/>
+  </g>
+
+  <circle cx="820" cy="62" r="6" fill="#FF006E">
+    <animate attributeName="r" values="6;9;6" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.55;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="60"  y="92" class="yr" fill="#7d8590" text-anchor="middle">2016</text>
+  <text x="820" y="92" class="yr" fill="#FF006E" text-anchor="middle">shipping</text>
+</svg>
