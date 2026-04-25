@@ -170,7 +170,9 @@ Deep RL forex systems: [TradingEngine](https://github.com/AshtonVaughan/trading-
 
 <!-- RECENT_START -->
 
-_loading recent activity. updates daily via [GitHub Actions](.github/workflows/update.yml)._
+```text
+_no public activity yet_
+```
 
 <!-- RECENT_END -->
 
