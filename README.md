@@ -5,7 +5,7 @@
 <br />
 
 <a href="https://github.com/AshtonVaughan?tab=repositories">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2400&pause=700&color=FF006E&center=true&vCenter=true&width=820&lines=18yo+CS+student+%2F+QUT+%2F+Brisbane;Bug+bounty+researcher+on+HackerOne;ProjectTriage+%E2%97%86+71K+lines+of+offensive-security+Python;PrismLLM+%E2%97%86+Rust+inference+engine+on+PyPI;AgentBrowser+%E2%97%86+browser+runtime+for+AI+agents" alt="tagline" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2400&pause=700&color=FF006E&center=true&vCenter=true&width=820&lines=18yo+IT+student+%2F+QUT+%2F+Brisbane;Hunting+exploits+on+HackerOne+since+I+was+9;ProjectTriage+%E2%97%86+71K+lines+of+offensive-security+Python;PrismLLM+%E2%97%86+Rust+inference+engine+on+PyPI;AgentBrowser+%E2%97%86+browser+runtime+for+AI+agents" alt="tagline" />
 </a>
 
 <br /><br />
@@ -21,9 +21,7 @@
 
 ### `>` ./about
 
-I picked up a Raspberry Pi in primary school and spent the next decade building things I couldn't buy. Now I'm 18, studying CS at QUT, hunting bugs on HackerOne, and shipping three projects in parallel: an autonomous bug bounty agent, a hardware-agnostic LLM inference engine, and a browser runtime built for AI agents.
-
-The throughline is the same one it's always been: I keep wanting the thing that makes the last thing feel slow.
+I've been hacking since I was 9. My first attack was an old-fashioned bruteforce on my parents' devices, run with nothing but my brain and a lot of time. I spent the next decade building things I couldn't afford. Now I'm 18, studying IT at QUT, hunting for exploits on HackerOne, and shipping security and AI research on the daily: an autonomous bug bounty agent, a hardware-agnostic LLM inference engine, and a browser runtime built for AI agents.
 
 <img src="https://raw.githubusercontent.com/AshtonVaughan/AshtonVaughan/main/timeline.svg" alt="a decade of side projects, with the most recent years highlighted" width="100%" />
 
