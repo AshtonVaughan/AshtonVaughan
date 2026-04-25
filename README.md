@@ -105,42 +105,39 @@ Deep RL forex systems: [TradingEngine](https://github.com/AshtonVaughan/trading-
 
 ### `>` ./stack
 
-<table>
-<tr><td><b>offense</b></td><td>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="36"/> &nbsp;
-<img src="https://cdn.simpleicons.org/burpsuite/FF6633" height="32"/> &nbsp;
-<img src="https://cdn.simpleicons.org/hackerone/FF006E" height="32"/> &nbsp;
-<img src="https://cdn.simpleicons.org/wireshark/1679A7" height="32"/> &nbsp;
-<img src="https://cdn.simpleicons.org/kalilinux/557C94" height="32"/> &nbsp;
-<img src="https://cdn.simpleicons.org/ghidra/DC143C" height="32"/> &nbsp;
-<img src="https://cdn.simpleicons.org/metasploit/2596CD" height="32"/>
-</td></tr>
-<tr><td><b>ai/ml</b></td><td>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="36"/> &nbsp;
-<img src="https://cdn.simpleicons.org/huggingface/FFD21F" height="32"/> &nbsp;
-<img src="https://cdn.simpleicons.org/anthropic/9D4EDD" height="32"/> &nbsp;
-<img src="https://cdn.simpleicons.org/openai/00D9FF" height="32"/> &nbsp;
-<img src="https://cdn.simpleicons.org/langchain/06FFA5" height="32"/> &nbsp;
-<img src="https://cdn.simpleicons.org/numpy/013243" height="32"/> &nbsp;
-<img src="https://cdn.simpleicons.org/nvidia/76B900" height="32"/>
-</td></tr>
-<tr><td><b>systems</b></td><td>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" height="36"/> &nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="36"/> &nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="36"/> &nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="36"/> &nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="36"/> &nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" height="36"/>
-</td></tr>
-<tr><td><b>ops</b></td><td>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="36"/> &nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="36"/> &nbsp;
-<img src="https://cdn.simpleicons.org/cloudflare/F38020" height="32"/> &nbsp;
-<img src="https://cdn.simpleicons.org/vercel/00D9FF" height="32"/> &nbsp;
-<img src="https://cdn.simpleicons.org/amazonaws/FF9900" height="32"/> &nbsp;
-<img src="https://cdn.simpleicons.org/githubactions/2088FF" height="32"/>
-</td></tr>
-</table>
+**offense**  &nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="34" align="top"/> &nbsp;
+<img src="https://cdn.simpleicons.org/burpsuite/FF6633" height="30" align="top"/> &nbsp;
+<img src="https://cdn.simpleicons.org/hackerone/FF006E" height="30" align="top"/> &nbsp;
+<img src="https://cdn.simpleicons.org/wireshark/1679A7" height="30" align="top"/> &nbsp;
+<img src="https://cdn.simpleicons.org/kalilinux/557C94" height="30" align="top"/> &nbsp;
+<img src="https://cdn.simpleicons.org/ghidra/DC143C" height="30" align="top"/> &nbsp;
+<img src="https://cdn.simpleicons.org/metasploit/2596CD" height="30" align="top"/>
+
+**ai / ml**  &nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="34" align="top"/> &nbsp;
+<img src="https://cdn.simpleicons.org/huggingface/FFD21F" height="30" align="top"/> &nbsp;
+<img src="https://cdn.simpleicons.org/anthropic/9D4EDD" height="30" align="top"/> &nbsp;
+<img src="https://cdn.simpleicons.org/openai/00D9FF" height="30" align="top"/> &nbsp;
+<img src="https://cdn.simpleicons.org/langchain/06FFA5" height="30" align="top"/> &nbsp;
+<img src="https://cdn.simpleicons.org/numpy/013243" height="30" align="top"/> &nbsp;
+<img src="https://cdn.simpleicons.org/nvidia/76B900" height="30" align="top"/>
+
+**systems**  &nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" height="34" align="top"/> &nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="34" align="top"/> &nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="34" align="top"/> &nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="34" align="top"/> &nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="34" align="top"/> &nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" height="34" align="top"/>
+
+**ops**  &nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="34" align="top"/> &nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="34" align="top"/> &nbsp;
+<img src="https://cdn.simpleicons.org/cloudflare/F38020" height="30" align="top"/> &nbsp;
+<img src="https://cdn.simpleicons.org/vercel/00D9FF" height="30" align="top"/> &nbsp;
+<img src="https://cdn.simpleicons.org/amazonaws/FF9900" height="30" align="top"/> &nbsp;
+<img src="https://cdn.simpleicons.org/githubactions/2088FF" height="30" align="top"/>
 
 ---
 
