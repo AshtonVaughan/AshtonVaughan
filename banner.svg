@@ -20,13 +20,6 @@
   <rect x="0" y="0" width="1200" height="2" fill="url(#accent)"/>
   <rect x="0" y="278" width="1200" height="2" fill="url(#accent)"/>
 
-  <g stroke="#FF006E" stroke-width="2" fill="none">
-    <path d="M 40 32 L 40 80 M 40 32 L 88 32"/>
-    <path d="M 1160 32 L 1160 80 M 1160 32 L 1112 32"/>
-    <path d="M 40 248 L 40 200 M 40 248 L 88 248"/>
-    <path d="M 1160 248 L 1160 200 M 1160 248 L 1112 248"/>
-  </g>
-
   <text x="80" y="160" font-family="ui-monospace, 'JetBrains Mono', 'Fira Code', monospace" font-size="56" font-weight="700" fill="#e6edf3" letter-spacing="-1">ASHTON VAUGHAN</text>
 
   <text x="80" y="200" font-family="ui-monospace, 'JetBrains Mono', 'Fira Code', monospace" font-size="18" fill="#FF006E">$ offensive_security + ai_ml_systems</text>
