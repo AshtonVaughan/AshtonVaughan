@@ -10,8 +10,8 @@
 
 <br /><br />
 
-<a href="mailto:ashtonluca@gmail.com"><img src="https://img.shields.io/badge/EMAIL-FF006E?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" /></a>
-<a href="https://hackerone.com/AshtonVaughan"><img src="https://img.shields.io/badge/HACKERONE-494649?style=for-the-badge&logo=hackerone&logoColor=white&labelColor=0d1117" /></a>
+<a href="mailto:business@ashtonvaughan.com"><img src="https://img.shields.io/badge/EMAIL-FF006E?style=for-the-badge&logo=maildotru&logoColor=white&labelColor=0d1117" /></a>
+<a href="https://hackerone.com/ashtonvaughan"><img src="https://img.shields.io/badge/HACKERONE-494649?style=for-the-badge&logo=hackerone&logoColor=white&labelColor=0d1117" /></a>
 <a href="https://pypi.org/user/AshtonVaughan/"><img src="https://img.shields.io/badge/PYPI-9D4EDD?style=for-the-badge&logo=pypi&logoColor=white&labelColor=0d1117" /></a>
 <a href="https://www.linkedin.com/in/ashton-vaughan-53758a352/"><img src="https://img.shields.io/badge/LINKEDIN-00D9FF?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" /></a>
 
