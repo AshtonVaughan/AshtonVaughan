@@ -21,28 +21,9 @@
 
 ### `>` ./about
 
-```yaml
-identity:
-  name:       Ashton Vaughan
-  age:        18
-  base:       Brisbane, AU  (AEST, UTC+10)
-  studying:   BSc Computer Science @ QUT
-
-domains:
-  - offensive_security
-  - applied_ml + agent_systems
-  - systems_programming   # rust, low-level
-
-shipping_now:
-  - autonomous_pentest_agents
-  - hardware_agnostic_llm_inference
-  - browser_runtime_for_ai_agents
-
-open_to:
-  - security_research_collabs
-  - bug_bounty_partnerships
-  - interesting_systems_problems
-```
+<a href="https://github.com/AshtonVaughan">
+  <img src="https://raw.githubusercontent.com/AshtonVaughan/AshtonVaughan/main/about.svg" alt="about Ashton Vaughan - operator console" width="100%" />
+</a>
 
 ---
 
