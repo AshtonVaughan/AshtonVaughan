@@ -2,12 +2,6 @@
 
 <img src="https://raw.githubusercontent.com/AshtonVaughan/AshtonVaughan/main/banner.svg" alt="Ashton Vaughan" />
 
-<br />
-
-<a href="https://github.com/AshtonVaughan?tab=repositories">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2400&pause=700&color=FF006E&center=true&vCenter=true&width=820&lines=18yo+IT+student+%2F+QUT+%2F+Brisbane;Hunting+exploits+on+HackerOne+since+I+was+9;ProjectTriage+%E2%97%86+71K+lines+of+offensive-security+Python;PrismLLM+%E2%97%86+Rust+inference+engine+on+PyPI;AgentBrowser+%E2%97%86+browser+runtime+for+AI+agents" alt="tagline" />
-</a>
-
 <br /><br />
 
 <a href="mailto:business@ashtonvaughan.com"><img src="https://img.shields.io/badge/EMAIL-FF006E?style=for-the-badge&logo=maildotru&logoColor=white&labelColor=0d1117" /></a>
