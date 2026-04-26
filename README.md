@@ -120,23 +120,7 @@ Deep RL forex systems: [TradingEngine](https://github.com/AshtonVaughan/trading-
 
 ### `>` ./signal
 
-<table>
-<tr>
-<td width="50%">
-<img src="https://github-readme-stats.vercel.app/api?username=AshtonVaughan&show_icons=true&hide_border=true&bg_color=00000000&title_color=FF006E&icon_color=FF006E&text_color=c9d1d9&include_all_commits=true&count_private=true&rank_icon=github" />
-</td>
-<td width="50%">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=AshtonVaughan&hide_border=true&background=00000000&ring=FF006E&fire=FF006E&currStreakLabel=FF006E&sideLabels=c9d1d9&dates=8b949e&currStreakNum=c9d1d9&sideNums=c9d1d9" />
-</td>
-</tr>
-<tr>
-<td colspan="2" align="center">
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AshtonVaughan&layout=compact&hide_border=true&bg_color=00000000&title_color=FF006E&text_color=c9d1d9&langs_count=10" />
-</td>
-</tr>
-</table>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=AshtonVaughan&hide_border=true&bg_color=00000000&color=FF006E&line=FF006E&point=00D9FF&area=true&area_color=FF006E&title_color=FF006E" />
 
 ---
 
@@ -158,11 +142,5 @@ Deep RL forex systems: [TradingEngine](https://github.com/AshtonVaughan/trading-
 ---
 
 <div align="center">
-
-<img src="https://raw.githubusercontent.com/AshtonVaughan/AshtonVaughan/output/github-snake-dark.svg" alt="contribution snake" />
-
-<br /><br />
-
 <sub><code>responsible disclosure only / AEST / always learning</code></sub>
-
 </div>
