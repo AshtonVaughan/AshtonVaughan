@@ -129,12 +129,12 @@ Deep RL forex systems: [TradingEngine](https://github.com/AshtonVaughan/trading-
 <!-- RECENT_START -->
 
 ```text
-- `push`     [AshtonVaughan/bountyhound](https://github.com/AshtonVaughan/bountyhound) - fix: remove broken logo reference
-- `push`     [AshtonVaughan/bountyhound](https://github.com/AshtonVaughan/bountyhound) - rename bountyhound-agent -> bountyhound, update plugin.json to v7.0.0
-- `push`     [AshtonVaughan/bountyhound](https://github.com/AshtonVaughan/bountyhound) - chore: remove legacy CLI package, keep only bountyhound-agent plugin
-- `push`     [AshtonVaughan/bountyhound](https://github.com/AshtonVaughan/bountyhound) - v7.0.0 - Merged TriageEngine + Apex Hunter into unified hacking harness
-- `push`     [AshtonVaughan/bountyhound](https://github.com/AshtonVaughan/bountyhound) - feat: rewrite all 41 skills as behavioral protocols + add 7 rare-category skills
-- `push`     [AshtonVaughan/DiaxiInject](https://github.com/AshtonVaughan/DiaxiInject) - Replace setup wizard with full TUI menu: keys, settings, campaign - all in-app
+- `push`     [AshtonVaughan/agentbrowser](https://github.com/AshtonVaughan/agentbrowser) - Iter 11: plan audit auto-gen + Stripe billing + Prometheus + GitHub Actions CI
+- `push`     [AshtonVaughan/agentbrowser](https://github.com/AshtonVaughan/agentbrowser) - Iter 10 cleanup: 100x README + project structure tidy
+- `push`     [AshtonVaughan/agentbrowser](https://github.com/AshtonVaughan/agentbrowser) - Iter 10: recorder UI + cross-domain memory + plan audit + license tier scaffold
+- `push`     [AshtonVaughan/agentbrowser](https://github.com/AshtonVaughan/agentbrowser) - Iter 1-9: full agent browser - cursor, vision, planner, action memory, multi-tab
+- `push`     [AshtonVaughan/prismllm](https://github.com/AshtonVaughan/prismllm) - Add eval harness, baseline benchmark, GGUF inspector; tidy repo root
+- `push`     [AshtonVaughan/prismllm](https://github.com/AshtonVaughan/prismllm) - Fix Q4_K_M dequant, vocab parsing, LM-head parallelism, detokenizer spacing
 ```
 
 <!-- RECENT_END -->
