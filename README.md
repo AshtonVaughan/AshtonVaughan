@@ -129,12 +129,12 @@ Deep RL forex systems: [TradingEngine](https://github.com/AshtonVaughan/trading-
 <!-- RECENT_START -->
 
 ```text
-- `push`     [AshtonVaughan/agentbrowser](https://github.com/AshtonVaughan/agentbrowser) - Iter 11: plan audit auto-gen + Stripe billing + Prometheus + GitHub Actions CI
-- `push`     [AshtonVaughan/agentbrowser](https://github.com/AshtonVaughan/agentbrowser) - Iter 10 cleanup: 100x README + project structure tidy
-- `push`     [AshtonVaughan/agentbrowser](https://github.com/AshtonVaughan/agentbrowser) - Iter 10: recorder UI + cross-domain memory + plan audit + license tier scaffold
-- `push`     [AshtonVaughan/agentbrowser](https://github.com/AshtonVaughan/agentbrowser) - Iter 1-9: full agent browser - cursor, vision, planner, action memory, multi-tab
-- `push`     [AshtonVaughan/prismllm](https://github.com/AshtonVaughan/prismllm) - Add eval harness, baseline benchmark, GGUF inspector; tidy repo root
-- `push`     [AshtonVaughan/prismllm](https://github.com/AshtonVaughan/prismllm) - Fix Q4_K_M dequant, vocab parsing, LM-head parallelism, detokenizer spacing
+- `push`     [AshtonVaughan/agentbrowser](https://github.com/AshtonVaughan/agentbrowser) - LLM is now optional - agentbrowser runs key-free
+- `push`     [AshtonVaughan/agentbrowser](https://github.com/AshtonVaughan/agentbrowser) - CDP-attach mode + localhost-trust auth + MCP CDP support
+- `push`     [AshtonVaughan/agentbrowser](https://github.com/AshtonVaughan/agentbrowser) - Wire up the operator UI route
+- `push`     [AshtonVaughan/agentbrowser](https://github.com/AshtonVaughan/agentbrowser) - Add QUICKSTART.md - the practical 'how do I run this' guide
+- `push`     [AshtonVaughan/agentbrowser](https://github.com/AshtonVaughan/agentbrowser) - Skip persistent-cache cross-instance test on Linux (known issue)
+- `push`     [AshtonVaughan/agentbrowser](https://github.com/AshtonVaughan/agentbrowser) - Production hardening: 4 Critical security fixes + audit + tutorials + harnesses
 ```
 
 <!-- RECENT_END -->
