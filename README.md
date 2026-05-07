@@ -129,12 +129,12 @@ Deep RL forex systems: [TradingEngine](https://github.com/AshtonVaughan/trading-
 <!-- RECENT_START -->
 
 ```text
-- `push`     [AshtonVaughan/agentbrowser](https://github.com/AshtonVaughan/agentbrowser) - LLM is now optional - agentbrowser runs key-free
-- `push`     [AshtonVaughan/agentbrowser](https://github.com/AshtonVaughan/agentbrowser) - CDP-attach mode + localhost-trust auth + MCP CDP support
-- `push`     [AshtonVaughan/agentbrowser](https://github.com/AshtonVaughan/agentbrowser) - Wire up the operator UI route
-- `push`     [AshtonVaughan/agentbrowser](https://github.com/AshtonVaughan/agentbrowser) - Add QUICKSTART.md - the practical 'how do I run this' guide
-- `push`     [AshtonVaughan/agentbrowser](https://github.com/AshtonVaughan/agentbrowser) - Skip persistent-cache cross-instance test on Linux (known issue)
-- `push`     [AshtonVaughan/agentbrowser](https://github.com/AshtonVaughan/agentbrowser) - Production hardening: 4 Critical security fixes + audit + tutorials + harnesses
+- `push`     [AshtonVaughan/DiaxiInject](https://github.com/AshtonVaughan/DiaxiInject) - Add Microsoft Copilot AI bounty (MSRC) scope + hunt runbook
+- `push`     [AshtonVaughan/DiaxiInject](https://github.com/AshtonVaughan/DiaxiInject) - Add Tier 1-4 capability + rigor + operational + scaffolding (25 items)
+- `push`     [AshtonVaughan/DiaxiInject](https://github.com/AshtonVaughan/DiaxiInject) - Restore data/refusal_patterns/patterns.yaml
+- `push`     [AshtonVaughan/DiaxiInject](https://github.com/AshtonVaughan/DiaxiInject) - CLI: integrate 7 new commands + revert production scope to unauthorized
+- `push`     [AshtonVaughan/DiaxiInject](https://github.com/AshtonVaughan/DiaxiInject) - README: comprehensive rewrite using canonical structure + modern enhancements
+- `push`     [AshtonVaughan/apcrack](https://github.com/AshtonVaughan/apcrack) - Fix correctness bugs across the codebase
 ```
 
 <!-- RECENT_END -->
