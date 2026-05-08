@@ -15,7 +15,7 @@
 
 ### `>` ./about
 
-I've been hacking since I was 9. My first attack was an old-fashioned bruteforce on my parents' devices, run with nothing but my brain and a lot of time. I spent the next decade building things I couldn't afford. Now I'm 18, studying IT at QUT, hunting for exploits on HackerOne, and shipping security and AI research on the daily: an autonomous bug bounty agent, a hardware-agnostic LLM inference engine, and a browser runtime built for AI agents.
+I've been hacking since I was 9. My first attack was an old-fashioned bruteforce on my parents' devices, run with nothing but my brain and a lot of time. I spent the next decade building things I couldn't afford. Now I'm 18, studying IT at QUT, hunting for exploits on HackerOne, and shipping security and AI research on the daily: an autonomous bug bounty agent, an authorization-first LLM red-team framework, a Burp Suite MCP bridge, a hardware-agnostic LLM inference engine, and a browser runtime built for AI agents.
 
 <img src="https://raw.githubusercontent.com/AshtonVaughan/AshtonVaughan/main/timeline.svg" alt="a decade of side projects, with the most recent years highlighted" width="100%" />
 
@@ -41,19 +41,30 @@ Autonomous bug bounty hunting agent. **71K lines of Python.** Hypothesis-driven 
 </td>
 <td width="50%" valign="top">
 
-#### [PrismLLM](https://github.com/AshtonVaughan/prismllm)
+#### [DiaxiInject](https://github.com/AshtonVaughan/DiaxiInject)
 
-`rust` &nbsp; `inference` &nbsp; `llm` &nbsp; `pypi`
+`python` &nbsp; `llm` &nbsp; `red-team` &nbsp; `bug-bounty`
 
-Hardware-agnostic LLM inference engine. Runs anything from a Raspberry Pi to a B200 cluster. Written in Rust, [shipped on PyPI](https://pypi.org/project/prismllm).
+Authorization-first LLM red-team framework. Local 70B abliterated attacker LM, **6 novel transformer-architecture attacks**, statistically-validated universal jailbreak claims.
 
-<img src="https://img.shields.io/github/stars/AshtonVaughan/prismllm?style=flat-square&color=FF006E&labelColor=0d1117&logo=github" />
-<img src="https://img.shields.io/pypi/v/prismllm?style=flat-square&color=00D9FF&labelColor=0d1117&logo=pypi" />
-<img src="https://img.shields.io/pypi/dm/prismllm?style=flat-square&color=06FFA5&labelColor=0d1117&logo=pypi&label=installs%2Fmo" />
+<img src="https://img.shields.io/github/stars/AshtonVaughan/DiaxiInject?style=flat-square&color=FF006E&labelColor=0d1117&logo=github" />
+<img src="https://img.shields.io/github/last-commit/AshtonVaughan/DiaxiInject?style=flat-square&color=00D9FF&labelColor=0d1117&logo=git" />
 
 </td>
 </tr>
 <tr>
+<td width="50%" valign="top">
+
+#### [burp-mcp-ultimate](https://github.com/AshtonVaughan/burp-mcp-ultimate)
+
+`kotlin` &nbsp; `burp` &nbsp; `mcp` &nbsp; `agents`
+
+Burp Suite extension that exposes the Montoya API as an MCP server. **152 typed tools** + cross-extension reflection bridge into Logger++, Hackvertor, Param Miner. Drives Burp from any AI agent.
+
+<img src="https://img.shields.io/github/stars/AshtonVaughan/burp-mcp-ultimate?style=flat-square&color=FF006E&labelColor=0d1117&logo=github" />
+<img src="https://img.shields.io/github/last-commit/AshtonVaughan/burp-mcp-ultimate?style=flat-square&color=00D9FF&labelColor=0d1117&logo=git" />
+
+</td>
 <td width="50%" valign="top">
 
 #### [AgentBrowser](https://github.com/AshtonVaughan/agentbrowser)
@@ -64,6 +75,21 @@ Browser runtime built for AI agents. Semantic tools, site memory, MCP server.
 
 <img src="https://img.shields.io/github/stars/AshtonVaughan/agentbrowser?style=flat-square&color=FF006E&labelColor=0d1117&logo=github" />
 <img src="https://img.shields.io/github/last-commit/AshtonVaughan/agentbrowser?style=flat-square&color=00D9FF&labelColor=0d1117&logo=git" />
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [PrismLLM](https://github.com/AshtonVaughan/prismllm)
+
+`rust` &nbsp; `inference` &nbsp; `llm` &nbsp; `pypi`
+
+Hardware-agnostic LLM inference engine. Runs anything from a Raspberry Pi to a B200 cluster. Written in Rust, [shipped on PyPI](https://pypi.org/project/prismllm).
+
+<img src="https://img.shields.io/github/stars/AshtonVaughan/prismllm?style=flat-square&color=FF006E&labelColor=0d1117&logo=github" />
+<img src="https://img.shields.io/pypi/v/prismllm?style=flat-square&color=00D9FF&labelColor=0d1117&logo=pypi" />
+<img src="https://img.shields.io/pypi/dm/prismllm?style=flat-square&color=06FFA5&labelColor=0d1117&logo=pypi&label=installs%2Fmo" />
 
 </td>
 <td width="50%" valign="top">
@@ -102,6 +128,7 @@ Deep RL forex systems: [TradingEngine](https://github.com/AshtonVaughan/trading-
 
 **systems**  &nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" height="34" align="top"/> &nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" height="34" align="top"/> &nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="34" align="top"/> &nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="34" align="top"/> &nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="34" align="top"/> &nbsp;
