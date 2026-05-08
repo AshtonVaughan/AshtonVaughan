@@ -129,12 +129,12 @@ Deep RL forex systems: [TradingEngine](https://github.com/AshtonVaughan/trading-
 <!-- RECENT_START -->
 
 ```text
+- `push`     [AshtonVaughan/burp-mcp-ultimate](https://github.com/AshtonVaughan/burp-mcp-ultimate) - Polish: dedupe wordlist, add morning report
+- `push`     [AshtonVaughan/burp-mcp-ultimate](https://github.com/AshtonVaughan/burp-mcp-ultimate) - Add fingerprint_target + open_redirect_probe agent-native tools
+- `push`     [AshtonVaughan/burp-mcp-ultimate](https://github.com/AshtonVaughan/burp-mcp-ultimate) - Add agent-native attack tools (no extension dependency)
+- `push`     [AshtonVaughan/burp-mcp-ultimate](https://github.com/AshtonVaughan/burp-mcp-ultimate) - Untrack .claude/ (Claude Code session state)
+- `push`     [AshtonVaughan/burp-mcp-ultimate](https://github.com/AshtonVaughan/burp-mcp-ultimate) - Add cross-extension reflection bridge
 - `push`     [AshtonVaughan/DiaxiInject](https://github.com/AshtonVaughan/DiaxiInject) - Add Microsoft Copilot AI bounty (MSRC) scope + hunt runbook
-- `push`     [AshtonVaughan/DiaxiInject](https://github.com/AshtonVaughan/DiaxiInject) - Add Tier 1-4 capability + rigor + operational + scaffolding (25 items)
-- `push`     [AshtonVaughan/DiaxiInject](https://github.com/AshtonVaughan/DiaxiInject) - Restore data/refusal_patterns/patterns.yaml
-- `push`     [AshtonVaughan/DiaxiInject](https://github.com/AshtonVaughan/DiaxiInject) - CLI: integrate 7 new commands + revert production scope to unauthorized
-- `push`     [AshtonVaughan/DiaxiInject](https://github.com/AshtonVaughan/DiaxiInject) - README: comprehensive rewrite using canonical structure + modern enhancements
-- `push`     [AshtonVaughan/apcrack](https://github.com/AshtonVaughan/apcrack) - Fix correctness bugs across the codebase
 ```
 
 <!-- RECENT_END -->
