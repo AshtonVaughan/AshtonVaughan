@@ -94,11 +94,14 @@ Hardware-agnostic LLM inference engine. Runs anything from a Raspberry Pi to a B
 </td>
 <td width="50%" valign="top">
 
-#### Quant stack
+#### [somnus](https://github.com/AshtonVaughan/somnus)
 
-`python` &nbsp; `rl` &nbsp; `ppo` &nbsp; `mt5`
+`python` &nbsp; `re` &nbsp; `binary-analysis` &nbsp; `agents`
 
-Deep RL forex systems: [TradingEngine](https://github.com/AshtonVaughan/trading-engine) (PPO), [StrategySearch](https://github.com/AshtonVaughan/strategy-search) (evolutionary search over 1M+ configs), and an [LSTM scalper](https://github.com/AshtonVaughan/money-maker) on MetaTrader 5.
+Local-first reverse engineering orchestrator. Drives **Ghidra, angr, Frida, rizin, QEMU, AFL++ and pwntools** through a small-model LLM to triage binaries and find bugs. No API keys, no network calls.
+
+<img src="https://img.shields.io/github/stars/AshtonVaughan/somnus?style=flat-square&color=FF006E&labelColor=0d1117&logo=github" />
+<img src="https://img.shields.io/github/last-commit/AshtonVaughan/somnus?style=flat-square&color=00D9FF&labelColor=0d1117&logo=git" />
 
 </td>
 </tr>
