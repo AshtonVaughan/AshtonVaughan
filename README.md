@@ -159,12 +159,12 @@ Local-first reverse engineering orchestrator. Drives **Ghidra, angr, Frida, rizi
 <!-- RECENT_START -->
 
 ```text
-- `push`     [AshtonVaughan/burp-mcp-ultimate](https://github.com/AshtonVaughan/burp-mcp-ultimate) - Polish: dedupe wordlist, add morning report
-- `push`     [AshtonVaughan/burp-mcp-ultimate](https://github.com/AshtonVaughan/burp-mcp-ultimate) - Add fingerprint_target + open_redirect_probe agent-native tools
-- `push`     [AshtonVaughan/burp-mcp-ultimate](https://github.com/AshtonVaughan/burp-mcp-ultimate) - Add agent-native attack tools (no extension dependency)
-- `push`     [AshtonVaughan/burp-mcp-ultimate](https://github.com/AshtonVaughan/burp-mcp-ultimate) - Untrack .claude/ (Claude Code session state)
-- `push`     [AshtonVaughan/burp-mcp-ultimate](https://github.com/AshtonVaughan/burp-mcp-ultimate) - Add cross-extension reflection bridge
-- `push`     [AshtonVaughan/DiaxiInject](https://github.com/AshtonVaughan/DiaxiInject) - Add Microsoft Copilot AI bounty (MSRC) scope + hunt runbook
+- `push`     [AshtonVaughan/React-Components](https://github.com/AshtonVaughan/React-Components) - Empty repo
+- `push`     [AshtonVaughan/DiaxiInject](https://github.com/AshtonVaughan/DiaxiInject) - Add baseline reproduction scripts, docs polish, paper restructure
+- `push`     [AshtonVaughan/DiaxiInject](https://github.com/AshtonVaughan/DiaxiInject) - Add multi-modal orchestrators, integration tests, baseline reproductions, docs site
+- `push`     [AshtonVaughan/DiaxiInject](https://github.com/AshtonVaughan/DiaxiInject) - Add defense layer, agentic feedback loops, marketplace, tracking, novel-method tuning
+- `push`     [AshtonVaughan/Nerve](https://github.com/AshtonVaughan/Nerve) - Anthropic adapter tool_result loop, clean nerve stop, honest README
+- `push`     [AshtonVaughan/Nerve](https://github.com/AshtonVaughan/Nerve) - Merge pull request #3 from AshtonVaughan/claude/nerve-automation-mvp-0j5iJ
 ```
 
 <!-- RECENT_END -->
