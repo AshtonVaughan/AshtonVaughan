@@ -15,7 +15,7 @@
 
 ### `>` ./about
 
-I've been hacking since I was 9. My first attack was an old-fashioned bruteforce on my parents' devices, run with nothing but my brain and a lot of time. I spent the next decade building things I couldn't afford. Now I'm 18, studying IT at QUT, hunting for exploits on HackerOne, and shipping security and AI research on the daily: an autonomous bug bounty agent, an authorization-first LLM red-team framework, a Burp Suite MCP bridge, a hardware-agnostic LLM inference engine, and a browser runtime built for AI agents.
+I started breaking into things at 13, with a brute-force on my parents' devices done by hand. Still at it: 18 now, studying IT at QUT and hunting on HackerOne. Most of what I ship is security and AI tooling - an autonomous bug-bounty agent, an authorization-first LLM red-team framework, a Burp-to-MCP bridge, a hardware-agnostic LLM inference engine, and a browser runtime built for AI agents.
 
 <img src="https://raw.githubusercontent.com/AshtonVaughan/AshtonVaughan/main/timeline.svg" alt="a decade of side projects, with the most recent years highlighted" width="100%" />
 
