@@ -15,9 +15,9 @@
 
 ### `>` ./about
 
-I started breaking into things at 13, with a brute-force on my parents' devices done by hand. Still at it: 18 now, studying IT at QUT and hunting on HackerOne. Most of what I ship is security and AI tooling - an autonomous bug-bounty agent, an authorization-first LLM red-team framework, a Burp-to-MCP bridge, a hardware-agnostic LLM inference engine, and a browser runtime built for AI agents.
+I started breaking into things at 9, with a brute-force on my parents' devices done by hand. Still at it: 18 now, studying IT at QUT and hunting on HackerOne. Most of what I ship is security and AI tooling - an autonomous bug-bounty agent, an authorization-first LLM red-team framework, a Burp-to-MCP bridge, a hardware-agnostic LLM inference engine, and a browser runtime built for AI agents.
 
-<img src="https://raw.githubusercontent.com/AshtonVaughan/AshtonVaughan/main/timeline.svg" alt="side projects over the years, most recent highlighted" width="100%" />
+<img src="https://raw.githubusercontent.com/AshtonVaughan/AshtonVaughan/main/timeline.svg" alt="a decade of side projects, with the most recent years highlighted" width="100%" />
 
 `offensive security` &nbsp;·&nbsp; `applied ml` &nbsp;·&nbsp; `agent systems` &nbsp;·&nbsp; `systems programming`
 
