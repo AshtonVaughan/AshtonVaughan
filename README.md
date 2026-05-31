@@ -159,12 +159,12 @@ Local-first reverse engineering orchestrator. Drives **Ghidra, angr, Frida, rizi
 <!-- RECENT_START -->
 
 ```text
-- `push`     [AshtonVaughan/React-Components](https://github.com/AshtonVaughan/React-Components) - Empty repo
-- `push`     [AshtonVaughan/DiaxiInject](https://github.com/AshtonVaughan/DiaxiInject) - Add baseline reproduction scripts, docs polish, paper restructure
-- `push`     [AshtonVaughan/DiaxiInject](https://github.com/AshtonVaughan/DiaxiInject) - Add multi-modal orchestrators, integration tests, baseline reproductions, docs site
-- `push`     [AshtonVaughan/DiaxiInject](https://github.com/AshtonVaughan/DiaxiInject) - Add defense layer, agentic feedback loops, marketplace, tracking, novel-method tuning
-- `push`     [AshtonVaughan/Nerve](https://github.com/AshtonVaughan/Nerve) - Anthropic adapter tool_result loop, clean nerve stop, honest README
-- `push`     [AshtonVaughan/Nerve](https://github.com/AshtonVaughan/Nerve) - Merge pull request #3 from AshtonVaughan/claude/nerve-automation-mvp-0j5iJ
+- `push`     [AshtonVaughan/uncasr](https://github.com/AshtonVaughan/uncasr) - Upgrade Uncasr into a product-page-led mystery-box web app
+- `push`     [AshtonVaughan/bountyhound](https://github.com/AshtonVaughan/bountyhound) - rename bountyhound-agent -> bountyhound + remove legacy CLI
+- `push`     [AshtonVaughan/bountyhound](https://github.com/AshtonVaughan/bountyhound) - remove proxy-engine: delete component (249 files) + scrub references
+- `push`     [AshtonVaughan/bountyhound](https://github.com/AshtonVaughan/bountyhound) - agent: confirm YesWeHack email yeswehack@ashtonvaughan.com
+- `push`     [AshtonVaughan/DiaxiInject](https://github.com/AshtonVaughan/DiaxiInject) - Merge pull request #7 from AshtonVaughan/dependabot/github_actions/actions/upload-artifact
+- `push`     [AshtonVaughan/DiaxiInject](https://github.com/AshtonVaughan/DiaxiInject) - Merge pull request #1 from AshtonVaughan/claude/analyze-diaxi-inject-ObEzA
 ```
 
 <!-- RECENT_END -->
