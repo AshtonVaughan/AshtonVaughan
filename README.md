@@ -142,12 +142,12 @@ Local-first reverse engineering orchestrator. Drives **Ghidra, angr, Frida, rizi
 <!-- RECENT_START -->
 
 ```text
-- `push`     [AshtonVaughan/uncasr](https://github.com/AshtonVaughan/uncasr) - Upgrade Uncasr into a product-page-led mystery-box web app
-- `push`     [AshtonVaughan/bountyhound](https://github.com/AshtonVaughan/bountyhound) - rename bountyhound-agent -> bountyhound + remove legacy CLI
-- `push`     [AshtonVaughan/bountyhound](https://github.com/AshtonVaughan/bountyhound) - remove proxy-engine: delete component (249 files) + scrub references
-- `push`     [AshtonVaughan/bountyhound](https://github.com/AshtonVaughan/bountyhound) - agent: confirm YesWeHack email yeswehack@ashtonvaughan.com
-- `push`     [AshtonVaughan/DiaxiInject](https://github.com/AshtonVaughan/DiaxiInject) - Merge pull request #7 from AshtonVaughan/dependabot/github_actions/actions/upload-artifact
-- `push`     [AshtonVaughan/DiaxiInject](https://github.com/AshtonVaughan/DiaxiInject) - Merge pull request #1 from AshtonVaughan/claude/analyze-diaxi-inject-ObEzA
+- `push`     [AshtonVaughan/bountyhound](https://github.com/AshtonVaughan/bountyhound) - fix: use raw docstring to avoid unicode-escape SyntaxError in build_disclosed_cache
+- `push`     [AshtonVaughan/Nerve](https://github.com/AshtonVaughan/Nerve) - Anthropic adapter tool_result loop, clean nerve stop, honest README
+- `push`     [AshtonVaughan/AnyData](https://github.com/AshtonVaughan/AnyData) - Phase 1: engine skeleton (schemas, provider, domain, cost, events)
+- `push`     [AshtonVaughan/DiaxiInject](https://github.com/AshtonVaughan/DiaxiInject) - fix: guard numpy import in mechinterp test and add missing pytz runtime dep
+- `push`     [AshtonVaughan/burp-mcp-ultimate](https://github.com/AshtonVaughan/burp-mcp-ultimate) - README: visual + structural overhaul to match repo style
+- `push`     [AshtonVaughan/strategy-search](https://github.com/AshtonVaughan/strategy-search) - fix: use correct labeling_method kwarg in labeling self-test
 ```
 
 <!-- RECENT_END -->
