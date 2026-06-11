@@ -101,16 +101,15 @@ Local-first reverse engineering orchestrator. Drives **Ghidra, angr, Frida, rizi
 <img src="https://cdn.simpleicons.org/hackerone/FF006E" height="30" align="top"/> &nbsp;
 <img src="https://cdn.simpleicons.org/wireshark/1679A7" height="30" align="top"/> &nbsp;
 <img src="https://cdn.simpleicons.org/kalilinux/557C94" height="30" align="top"/> &nbsp;
-<img src="https://cdn.simpleicons.org/ghidra/DC143C" height="30" align="top"/> &nbsp;
 <img src="https://cdn.simpleicons.org/metasploit/2596CD" height="30" align="top"/>
 
 **ai / ml**  &nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="34" align="top"/> &nbsp;
 <img src="https://cdn.simpleicons.org/huggingface/FFD21F" height="30" align="top"/> &nbsp;
 <img src="https://cdn.simpleicons.org/anthropic/9D4EDD" height="30" align="top"/> &nbsp;
-<img src="https://cdn.simpleicons.org/openai/00D9FF" height="30" align="top"/> &nbsp;
+<img src="https://unpkg.com/@lobehub/icons-static-png@latest/dark/openai.png" height="28" align="top"/> &nbsp;
 <img src="https://cdn.simpleicons.org/langchain/06FFA5" height="30" align="top"/> &nbsp;
-<img src="https://cdn.simpleicons.org/numpy/013243" height="30" align="top"/> &nbsp;
+<img src="https://cdn.simpleicons.org/numpy/4DABCF" height="30" align="top"/> &nbsp;
 <img src="https://cdn.simpleicons.org/nvidia/76B900" height="30" align="top"/>
 
 **systems**  &nbsp;
@@ -127,7 +126,7 @@ Local-first reverse engineering orchestrator. Drives **Ghidra, angr, Frida, rizi
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="34" align="top"/> &nbsp;
 <img src="https://cdn.simpleicons.org/cloudflare/F38020" height="30" align="top"/> &nbsp;
 <img src="https://cdn.simpleicons.org/vercel/00D9FF" height="30" align="top"/> &nbsp;
-<img src="https://cdn.simpleicons.org/amazonaws/FF9900" height="30" align="top"/> &nbsp;
+<img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" height="30" align="top"/> &nbsp;
 <img src="https://cdn.simpleicons.org/githubactions/2088FF" height="30" align="top"/>
 
 ---
