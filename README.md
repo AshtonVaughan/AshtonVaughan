@@ -35,9 +35,6 @@ It started at 9, guessing the passwords on my parents' devices so I could play g
 
 Autonomous bug bounty hunting agent. **71K lines of Python.** Hypothesis-driven pentesting with 19 reasoning modules, 51+ tools, and HackerOne integration.
 
-<img src="https://img.shields.io/github/stars/AshtonVaughan/ProjectTriage?style=flat-square&color=FF006E&labelColor=0d1117&logo=github" />
-<img src="https://img.shields.io/github/last-commit/AshtonVaughan/ProjectTriage?style=flat-square&color=00D9FF&labelColor=0d1117&logo=git" />
-
 </td>
 <td width="50%" valign="top">
 
@@ -46,9 +43,6 @@ Autonomous bug bounty hunting agent. **71K lines of Python.** Hypothesis-driven 
 `python` &nbsp; `llm` &nbsp; `red-team` &nbsp; `bug-bounty`
 
 Authorization-first LLM red-team framework. Local 70B abliterated attacker LM, **6 novel transformer-architecture attacks**, statistically-validated universal jailbreak claims.
-
-<img src="https://img.shields.io/github/stars/AshtonVaughan/DiaxiInject?style=flat-square&color=FF006E&labelColor=0d1117&logo=github" />
-<img src="https://img.shields.io/github/last-commit/AshtonVaughan/DiaxiInject?style=flat-square&color=00D9FF&labelColor=0d1117&logo=git" />
 
 </td>
 </tr>
@@ -61,9 +55,6 @@ Authorization-first LLM red-team framework. Local 70B abliterated attacker LM, *
 
 Burp Suite extension that exposes the Montoya API as an MCP server. **152 typed tools** + cross-extension reflection bridge into Logger++, Hackvertor, Param Miner. Drives Burp from any AI agent.
 
-<img src="https://img.shields.io/github/stars/AshtonVaughan/burp-mcp-ultimate?style=flat-square&color=FF006E&labelColor=0d1117&logo=github" />
-<img src="https://img.shields.io/github/last-commit/AshtonVaughan/burp-mcp-ultimate?style=flat-square&color=00D9FF&labelColor=0d1117&logo=git" />
-
 </td>
 <td width="50%" valign="top">
 
@@ -71,10 +62,7 @@ Burp Suite extension that exposes the Montoya API as an MCP server. **152 typed 
 
 `typescript` &nbsp; `browser` &nbsp; `agents` &nbsp; `mcp`
 
-Browser runtime built for AI agents. Semantic tools, site memory, MCP server.
-
-<img src="https://img.shields.io/github/stars/AshtonVaughan/agentbrowser?style=flat-square&color=FF006E&labelColor=0d1117&logo=github" />
-<img src="https://img.shields.io/github/last-commit/AshtonVaughan/agentbrowser?style=flat-square&color=00D9FF&labelColor=0d1117&logo=git" />
+Browser runtime built for AI agents. Semantic tools, persistent site memory, self-healing execution, and a built-in MCP server.
 
 </td>
 </tr>
@@ -85,11 +73,10 @@ Browser runtime built for AI agents. Semantic tools, site memory, MCP server.
 
 `rust` &nbsp; `inference` &nbsp; `llm` &nbsp; `pypi`
 
-Hardware-agnostic LLM inference engine. Runs anything from a Raspberry Pi to a B200 cluster. Written in Rust, [shipped on PyPI](https://pypi.org/project/prismllm).
+Hardware-agnostic LLM inference engine — its Sparse Oracle Architecture runs anything from a Raspberry Pi to a B200 cluster. Written in Rust, [shipped on PyPI](https://pypi.org/project/prismllm).
 
-<img src="https://img.shields.io/github/stars/AshtonVaughan/prismllm?style=flat-square&color=FF006E&labelColor=0d1117&logo=github" />
-<img src="https://img.shields.io/pypi/v/prismllm?style=flat-square&color=00D9FF&labelColor=0d1117&logo=pypi" />
-<img src="https://img.shields.io/pypi/dm/prismllm?style=flat-square&color=06FFA5&labelColor=0d1117&logo=pypi&label=installs%2Fmo" />
+<a href="https://pypi.org/project/prismllm"><img src="https://img.shields.io/pypi/v/prismllm?style=flat-square&color=00D9FF&labelColor=0d1117&logo=pypi&logoColor=white" /></a>
+<a href="https://pypi.org/project/prismllm"><img src="https://img.shields.io/pypi/dm/prismllm?style=flat-square&color=06FFA5&labelColor=0d1117&logo=pypi&logoColor=white&label=installs%2Fmo" /></a>
 
 </td>
 <td width="50%" valign="top">
@@ -99,9 +86,6 @@ Hardware-agnostic LLM inference engine. Runs anything from a Raspberry Pi to a B
 `python` &nbsp; `re` &nbsp; `binary-analysis` &nbsp; `agents`
 
 Local-first reverse engineering orchestrator. Drives **Ghidra, angr, Frida, rizin, QEMU, AFL++ and pwntools** through a small-model LLM to triage binaries and find bugs. No API keys, no network calls.
-
-<img src="https://img.shields.io/github/stars/AshtonVaughan/somnus?style=flat-square&color=FF006E&labelColor=0d1117&logo=github" />
-<img src="https://img.shields.io/github/last-commit/AshtonVaughan/somnus?style=flat-square&color=00D9FF&labelColor=0d1117&logo=git" />
 
 </td>
 </tr>
