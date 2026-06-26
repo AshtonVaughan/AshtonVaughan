@@ -142,12 +142,12 @@ Local-first reverse engineering orchestrator. Drives **Ghidra, angr, Frida, rizi
 <!-- RECENT_START -->
 
 ```text
-- `push`     [AshtonVaughan/bountyhound](https://github.com/AshtonVaughan/bountyhound) - fix: use raw docstring to avoid unicode-escape SyntaxError in build_disclosed_cache
-- `push`     [AshtonVaughan/Nerve](https://github.com/AshtonVaughan/Nerve) - Anthropic adapter tool_result loop, clean nerve stop, honest README
-- `push`     [AshtonVaughan/AnyData](https://github.com/AshtonVaughan/AnyData) - Phase 1: engine skeleton (schemas, provider, domain, cost, events)
-- `push`     [AshtonVaughan/DiaxiInject](https://github.com/AshtonVaughan/DiaxiInject) - fix: guard numpy import in mechinterp test and add missing pytz runtime dep
-- `push`     [AshtonVaughan/burp-mcp-ultimate](https://github.com/AshtonVaughan/burp-mcp-ultimate) - README: visual + structural overhaul to match repo style
-- `push`     [AshtonVaughan/strategy-search](https://github.com/AshtonVaughan/strategy-search) - fix: use correct labeling_method kwarg in labeling self-test
+- `push`     [AshtonVaughan/OpusGame](https://github.com/AshtonVaughan/OpusGame) - Ambient audio variety + conclude the build loop at completion
+- `push`     [AshtonVaughan/OpusGame](https://github.com/AshtonVaughan/OpusGame) - Controller polish: every menu grabs focus on its first usable button
+- `push`     [AshtonVaughan/OpusGame](https://github.com/AshtonVaughan/OpusGame) - Escalation visuals: Statue decoy-swap + Painting frame-glow
+- `push`     [AshtonVaughan/OpusGame](https://github.com/AshtonVaughan/OpusGame) - QA pass: release candidate — checklist 32/32, README refresh, endless stat
+- `push`     [AshtonVaughan/OpusGame](https://github.com/AshtonVaughan/OpusGame) - Achievements: wire the six enemy-driven unlocks (all 10 now wired)
+- `push`     [AshtonVaughan/OpusGame](https://github.com/AshtonVaughan/OpusGame) - Danger HUD: priority-keyed registry so enemies don't clobber one label
 ```
 
 <!-- RECENT_END -->
