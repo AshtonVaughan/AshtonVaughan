@@ -142,12 +142,8 @@ Local-first reverse engineering orchestrator. Drives **Ghidra, angr, Frida, rizi
 <!-- RECENT_START -->
 
 ```text
-- `push`     [AshtonVaughan/OpusGame](https://github.com/AshtonVaughan/OpusGame) - Ambient audio variety + conclude the build loop at completion
-- `push`     [AshtonVaughan/OpusGame](https://github.com/AshtonVaughan/OpusGame) - Controller polish: every menu grabs focus on its first usable button
-- `push`     [AshtonVaughan/OpusGame](https://github.com/AshtonVaughan/OpusGame) - Escalation visuals: Statue decoy-swap + Painting frame-glow
-- `push`     [AshtonVaughan/OpusGame](https://github.com/AshtonVaughan/OpusGame) - QA pass: release candidate — checklist 32/32, README refresh, endless stat
-- `push`     [AshtonVaughan/OpusGame](https://github.com/AshtonVaughan/OpusGame) - Achievements: wire the six enemy-driven unlocks (all 10 now wired)
-- `push`     [AshtonVaughan/OpusGame](https://github.com/AshtonVaughan/OpusGame) - Danger HUD: priority-keyed registry so enemies don't clobber one label
+- `push`     [AshtonVaughan/Nerve](https://github.com/AshtonVaughan/Nerve) - docs: mark project as non-working and unmaintained
+- `push`     [AshtonVaughan/AnyData](https://github.com/AshtonVaughan/AnyData) - docs: mark project as work in progress
 ```
 
 <!-- RECENT_END -->
