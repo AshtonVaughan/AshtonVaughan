@@ -142,8 +142,7 @@ Local-first reverse engineering orchestrator. Drives **Ghidra, angr, Frida, rizi
 <!-- RECENT_START -->
 
 ```text
-- `push`     [AshtonVaughan/Nerve](https://github.com/AshtonVaughan/Nerve) - docs: mark project as non-working and unmaintained
-- `push`     [AshtonVaughan/AnyData](https://github.com/AshtonVaughan/AnyData) - docs: mark project as work in progress
+_no public activity yet_
 ```
 
 <!-- RECENT_END -->
