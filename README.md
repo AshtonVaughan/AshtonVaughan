@@ -142,8 +142,7 @@ Local-first reverse engineering orchestrator. Drives **Ghidra, angr, Frida, rizi
 <!-- RECENT_START -->
 
 ```text
-- `push`     [AshtonVaughan/DemandLab](https://github.com/AshtonVaughan/DemandLab) - Update Pages workflow actions
-- `push`     [AshtonVaughan/DemandLab](https://github.com/AshtonVaughan/DemandLab) - Cover destructive confirmation branches
+_no public activity yet_
 ```
 
 <!-- RECENT_END -->
