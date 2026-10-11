@@ -142,7 +142,9 @@ Local-first reverse engineering orchestrator. Drives **Ghidra, angr, Frida, rizi
 <!-- RECENT_START -->
 
 ```text
-_no public activity yet_
+- `push`     [AshtonVaughan/fieldwork-ctf](https://github.com/AshtonVaughan/fieldwork-ctf) - Build Relay: 26 progressive CTF stages with patched comparisons
+- `push`     [AshtonVaughan/fieldwork-ctf](https://github.com/AshtonVaughan/fieldwork-ctf) - Version game scripts to prevent stale browser assets
+- `push`     [AshtonVaughan/fieldwork-ctf](https://github.com/AshtonVaughan/fieldwork-ctf) - Use inline confirmation for game reset
 ```
 
 <!-- RECENT_END -->
