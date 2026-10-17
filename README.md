@@ -142,6 +142,7 @@ Local-first reverse engineering orchestrator. Drives **Ghidra, angr, Frida, rizi
 <!-- RECENT_START -->
 
 ```text
+- `push`     [AshtonVaughan/hermes-agent](https://github.com/AshtonVaughan/hermes-agent) - feat(plugins): add jeeves_presence plugin for the Jeeves orb app
 - `push`     [AshtonVaughan/fieldwork-ctf](https://github.com/AshtonVaughan/fieldwork-ctf) - Build Relay: 26 progressive CTF stages with patched comparisons
 - `push`     [AshtonVaughan/fieldwork-ctf](https://github.com/AshtonVaughan/fieldwork-ctf) - Version game scripts to prevent stale browser assets
 - `push`     [AshtonVaughan/fieldwork-ctf](https://github.com/AshtonVaughan/fieldwork-ctf) - Use inline confirmation for game reset
