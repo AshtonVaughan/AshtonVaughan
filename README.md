@@ -142,7 +142,7 @@ Local-first reverse engineering orchestrator. Drives **Ghidra, angr, Frida, rizi
 <!-- RECENT_START -->
 
 ```text
-- `push`     [AshtonVaughan/hermes-agent](https://github.com/AshtonVaughan/hermes-agent) - feat(plugins): add jeeves_presence plugin for the Jeeves orb app
+_no public activity yet_
 ```
 
 <!-- RECENT_END -->
