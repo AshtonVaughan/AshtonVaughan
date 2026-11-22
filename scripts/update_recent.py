@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Update the README's recent-activity section from GitHub events."""
+"""Update the README's recent-activity section from public repositories.
+
+The public events feed is not a usable source: it drops pushes made while a
+repository was private and returns PushEvents without commit data. Instead,
+list the public repositories by push time and show the latest commit on each
+default branch.
+"""
 from __future__ import annotations
 
 import json
@@ -15,101 +21,99 @@ README = Path("README.md")
 START = "<!-- RECENT_START -->"
 END = "<!-- RECENT_END -->"
 LIMIT = 6
+CANDIDATES = 15
+SUBJECT_MAX = 84
+# Personal pages and disposable test repositories that are not project work.
+SKIP = {"for-keeley", "taralani-countdown", "s0d-canary", "ucp-agent-profile"}
+PLACEHOLDER_SUBJECTS = {"initial commit", "first commit"}
+MERGE_SUBJECT = re.compile(r"^Merge (pull request|branch) ")
+MARKDOWN_SPECIALS = re.compile(r"([\\`*_\[\]<>|])")
 
 
-def fetch_events() -> list[dict[str, Any]]:
+def gh_json(path: str) -> Any:
     result = subprocess.run(
-        ["gh", "api", f"users/{USER}/events/public", "--paginate"],
+        ["gh", "api", path],
         capture_output=True,
         text=True,
+        encoding="utf-8",
         check=True,
+        timeout=30,
     )
     return json.loads(result.stdout)
 
 
-def fetch_commit_message(repo: str, sha: str) -> str:
-    try:
-        result = subprocess.run(
-            ["gh", "api", f"repos/{repo}/commits/{sha}", "--jq", ".commit.message"],
-            capture_output=True,
-            text=True,
-            check=True,
-            timeout=10,
-        )
-        line = result.stdout.strip().splitlines()
-        return line[0][:90] if line else ""
-    except (subprocess.CalledProcessError, subprocess.TimeoutExpired):
+def fetch_repos() -> list[dict[str, Any]]:
+    repos = gh_json(f"users/{USER}/repos?type=owner&sort=pushed&per_page=100")
+    return [
+        repo
+        for repo in repos
+        if not repo["fork"]
+        and not repo["archived"]
+        and not repo["private"]
+        and repo["full_name"] != SELF_REPO
+        and repo["name"] not in SKIP
+    ][:CANDIDATES]
+
+
+def commit_subject(message: str) -> str:
+    """First line of a commit message, or the PR title for a merge commit."""
+    lines = [line.strip() for line in message.splitlines() if line.strip()]
+    if not lines:
         return ""
+    subject = lines[0]
+    if MERGE_SUBJECT.match(subject) and len(lines) > 1:
+        subject = lines[1]
+    if len(subject) > SUBJECT_MAX:
+        subject = subject[: SUBJECT_MAX - 3].rstrip() + "..."
+    return MARKDOWN_SPECIALS.sub(r"\\\1", subject)
 
 
-def format_events(events: list[dict[str, Any]]) -> str:
-    rows: list[str] = []
-    seen: set[tuple[str, str]] = set()
-    for ev in events:
-        if len(rows) >= LIMIT:
-            break
-        repo = ev["repo"]["name"]
-        if repo == SELF_REPO:
-            continue
-        kind = ev["type"]
-        if kind == "PushEvent":
-            commits = ev["payload"].get("commits", [])
-            if commits:
-                msg = commits[-1]["message"].splitlines()[0][:90]
-            else:
-                head = ev["payload"].get("head", "")
-                msg = fetch_commit_message(repo, head) if head else ""
-            if not msg:
-                ref = ev["payload"].get("ref", "").replace("refs/heads/", "")
-                msg = f"pushed to {ref}" if ref else "pushed"
-            key = (repo, msg)
-            if key in seen:
-                continue
-            seen.add(key)
-            rows.append(
-                f"- `push`     [{repo}](https://github.com/{repo}) - {msg}"
-            )
-        elif kind == "ReleaseEvent":
-            release = ev["payload"].get("release") or {}
-            tag = release.get("tag_name", "")
-            rows.append(
-                f"- `release`  [{repo}](https://github.com/{repo}) {tag}"
-            )
-        elif kind == "PullRequestEvent" and ev["payload"].get("action") == "opened":
-            pr = ev["payload"]["pull_request"]
-            num = pr["number"]
-            title = pr["title"][:90]
-            rows.append(
-                f"- `PR`       [{repo}#{num}](https://github.com/{repo}/pull/{num}) {title}"
-            )
-        elif (
-            kind == "CreateEvent"
-            and ev["payload"].get("ref_type") == "repository"
-        ):
-            rows.append(
-                f"- `new`      [{repo}](https://github.com/{repo}) created"
-            )
-    body = "\n".join(rows) if rows else "_no public activity yet_"
-    return f"```text\n{body}\n```"
+def latest_commit(full_name: str) -> tuple[str, str] | None:
+    """Return (date, subject) for the head of the default branch."""
+    try:
+        commits = gh_json(f"repos/{full_name}/commits?per_page=1")
+    except (subprocess.CalledProcessError, subprocess.TimeoutExpired):
+        return None  # empty repository or transient failure
+    if not commits:
+        return None
+    commit = commits[0]["commit"]
+    subject = commit_subject(commit["message"])
+    if not subject or subject.lower() in PLACEHOLDER_SUBJECTS:
+        return None  # a repository stub says nothing about recent work
+    return commit["committer"]["date"][:10], subject
+
+
+def format_recent(repos: list[dict[str, Any]]) -> str:
+    entries: list[tuple[str, str, str, str]] = []
+    for repo in repos:
+        found = latest_commit(repo["full_name"])
+        if found:
+            date, subject = found
+            entries.append((date, repo["name"], repo["html_url"], subject))
+    entries.sort(key=lambda entry: entry[0], reverse=True)
+    rows = [
+        f"- `{date}` &nbsp; [{name}]({url}) &nbsp; {subject}"
+        for date, name, url, subject in entries[:LIMIT]
+    ]
+    return "\n".join(rows) if rows else "_nothing public yet_"
 
 
 def update_readme(content: str) -> bool:
     text = README.read_text(encoding="utf-8")
-    pattern = re.compile(
-        re.escape(START) + r".*?" + re.escape(END), re.DOTALL
-    )
+    pattern = re.compile(re.escape(START) + r".*?" + re.escape(END), re.DOTALL)
+    if not pattern.search(text):
+        raise SystemExit(f"markers {START} / {END} not found in {README}")
     new_block = f"{START}\n\n{content}\n\n{END}"
-    new_text = pattern.sub(new_block, text)
+    new_text = pattern.sub(lambda _: new_block, text)
     if new_text == text:
         return False
-    README.write_text(new_text, encoding="utf-8")
+    README.write_text(new_text, encoding="utf-8", newline="\n")
     return True
 
 
 def main() -> int:
-    events = fetch_events()
-    formatted = format_events(events)
-    update_readme(formatted)
+    changed = update_readme(format_recent(fetch_repos()))
+    print("README updated" if changed else "README already current")
     return 0
 
 

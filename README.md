@@ -63,7 +63,7 @@ It started at 9, guessing the passwords on my parents' devices so I could play g
 
 ### `>` ./signal
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AshtonVaughan&layout=compact&hide_border=true&bg_color=00000000&title_color=FF006E&text_color=c9d1d9&langs_count=10" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AshtonVaughan&layout=compact&hide_border=true&bg_color=00000000&title_color=FF006E&text_color=c9d1d9&langs_count=6&exclude_repo=ashtonvaughan-com,for-keeley,taralani-countdown" />
 
 ---
 
@@ -71,9 +71,12 @@ It started at 9, guessing the passwords on my parents' devices so I could play g
 
 <!-- RECENT_START -->
 
-```text
-_no public activity yet_
-```
+- `2026-11-21` &nbsp; [hackbot](https://github.com/AshtonVaughan/hackbot) &nbsp; Load wildcard/qualified HackerOne scopes instead of refusing
+- `2026-10-19` &nbsp; [Hacking](https://github.com/AshtonVaughan/Hacking) &nbsp; 100 sub-branches per technique file (rows 101-200), 187600 new rows
+- `2026-10-11` &nbsp; [fieldwork-ctf](https://github.com/AshtonVaughan/fieldwork-ctf) &nbsp; Version game scripts to prevent stale browser assets
+- `2026-09-30` &nbsp; [adlottery](https://github.com/AshtonVaughan/adlottery) &nbsp; Rebuild as The Weekly Pot, hosted on GitHub Pages (#2)
+- `2026-08-24` &nbsp; [DemandLab](https://github.com/AshtonVaughan/DemandLab) &nbsp; Update Pages workflow actions
+- `2026-07-16` &nbsp; [Nerve](https://github.com/AshtonVaughan/Nerve) &nbsp; docs: mark project as non-working and unmaintained
 
 <!-- RECENT_END -->
 
