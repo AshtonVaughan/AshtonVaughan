@@ -71,7 +71,7 @@ It started at 9, guessing the passwords on my parents' devices so I could play g
 
 <!-- RECENT_START -->
 
-- `2026-11-21` &nbsp; [hackbot](https://github.com/AshtonVaughan/hackbot) &nbsp; Load wildcard/qualified HackerOne scopes instead of refusing
+- `2026-11-23` &nbsp; [exo-h1-submit](https://github.com/AshtonVaughan/exo-h1-submit) &nbsp; exo-h1-submit: single-file HackerOne report client
 - `2026-10-19` &nbsp; [Hacking](https://github.com/AshtonVaughan/Hacking) &nbsp; 100 sub-branches per technique file (rows 101-200), 187600 new rows
 - `2026-10-11` &nbsp; [fieldwork-ctf](https://github.com/AshtonVaughan/fieldwork-ctf) &nbsp; Version game scripts to prevent stale browser assets
 - `2026-09-30` &nbsp; [adlottery](https://github.com/AshtonVaughan/adlottery) &nbsp; Rebuild as The Weekly Pot, hosted on GitHub Pages (#2)
