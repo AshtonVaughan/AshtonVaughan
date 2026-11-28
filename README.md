@@ -72,11 +72,11 @@ It started at 9, guessing the passwords on my parents' devices so I could play g
 <!-- RECENT_START -->
 
 - `2026-11-24` &nbsp; [apple-dev-skill](https://github.com/AshtonVaughan/apple-dev-skill) &nbsp; Initial commit: apple-dev skill
-- `2026-11-23` &nbsp; [exo-h1-submit](https://github.com/AshtonVaughan/exo-h1-submit) &nbsp; exo-h1-submit: single-file HackerOne report client
-- `2026-10-19` &nbsp; [Hacking](https://github.com/AshtonVaughan/Hacking) &nbsp; 100 sub-branches per technique file (rows 101-200), 187600 new rows
-- `2026-10-11` &nbsp; [fieldwork-ctf](https://github.com/AshtonVaughan/fieldwork-ctf) &nbsp; Version game scripts to prevent stale browser assets
-- `2026-09-30` &nbsp; [adlottery](https://github.com/AshtonVaughan/adlottery) &nbsp; Rebuild as The Weekly Pot, hosted on GitHub Pages (#2)
-- `2026-08-24` &nbsp; [DemandLab](https://github.com/AshtonVaughan/DemandLab) &nbsp; Update Pages workflow actions
+- `2026-07-16` &nbsp; [Nerve](https://github.com/AshtonVaughan/Nerve) &nbsp; docs: mark project as non-working and unmaintained
+- `2026-06-11` &nbsp; [tnmap](https://github.com/AshtonVaughan/tnmap) &nbsp; fix: correct stop-key in app docstring (ctrl+x)
+- `2026-06-11` &nbsp; [trading-engine](https://github.com/AshtonVaughan/trading-engine) &nbsp; fix: correct MT5Bridge constructor and dead feature\_engineer.py refs
+- `2026-05-09` &nbsp; [ashtonvaughan-com](https://github.com/AshtonVaughan/ashtonvaughan-com) &nbsp; init: static mirror of giveaways.com homepage
+- `2026-04-23` &nbsp; [somnus](https://github.com/AshtonVaughan/somnus) &nbsp; Initial commit: Somnus local-first RE orchestrator
 
 <!-- RECENT_END -->
 
